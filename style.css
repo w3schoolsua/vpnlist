@@ -1,17 +1,18 @@
 body {margin: 0;font-family: Arial, sans-serif;background: #f7f7f7;color: #222;transition: background 0.3s ease, color 0.3s ease}
 body.dark {background: #1a1a1a;color: #e5e5e5}
-.topbar {display: flex;justify-content: space-between;align-items: center;padding: 12px 15px;background: #4CAF50;color: white}
-.topbar .logo {color: white;text-decoration: none;font-weight: bold}
+.topbar {display: flex;justify-content: space-between;align-items: center;padding: 5px 15px;background: #008459;color: white}
+.topbar .logo {color: white;text-decoration: none;font-weight: bold;text-shadow: 1px 1px 2px #000}
+.logo:hover {color: yellow}
 .theme-btn {background: transparent;border: none;font-size: 24px;cursor: pointer;color: white;transition: transform 0.3s ease}
 .theme-btn:hover {transform: rotate(20deg)}
 body.dark .theme-btn {color: #ffdd57}
-main {padding: 20px;display: flex;flex-direction: column;align-items: center}
+main {padding: 10px;display: flex;flex-direction: column;align-items: center}
 h1 {margin-bottom: 20px;color: #333}
 body.dark h1 {color: #ddd}
 .search-box {width: 92%;max-width: 880px}
 #searchInput {width: 100%;padding:12px; margin: 10px -15px; font-size: 16px;border: 2px solid #4CAF50;border-radius: 6px;outline: none;transition: 0.3s}
-body.dark #searchInput {background: #2a2a2a;color: #eee;border-color: #66bb6a}
-#searchInput:focus {border-color: #45a049}
+body.dark #searchInput {background: #2a2a2a;color: #eee;border-color: #008459}
+#searchInput:focus {border-color: #008459}
 .table-wrapper {
     width: 100%;
     max-width: 900px;
@@ -26,8 +27,8 @@ body.dark #searchInput {background: #2a2a2a;color: #eee;border-color: #66bb6a}
 
 body.dark .table-wrapper {background: #2a2a2a;box-shadow: 0 0 10px rgba(255,255,255,0.05)}
 table {width: 100%;border-collapse: collapse}
-thead {background: #4CAF50;color: white}
-body.dark thead {background: #388E3C}
+thead {background: #008459;color: white}
+body.dark thead {background: #008459}
 th, td {padding: 12px;border-bottom: 1px solid #ddd}
 body.dark td {border-bottom: 1px solid #444}
 td a {color: #0077cc;text-decoration: none}
@@ -56,7 +57,7 @@ th.sortable.sorted-desc::after {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    background: #4CAF50;
+    background: #008459;
     color: white;
     border: none;
     padding: 8px 10px;
@@ -74,7 +75,7 @@ th.sortable.sorted-desc::after {
 }
 
 body.dark #scrollTopBtn {
-    background: #66bb6a;
+    background: #008459;
     color: #222;
 }
 
