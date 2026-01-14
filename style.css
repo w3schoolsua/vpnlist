@@ -1,153 +1,40 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f7f7f7;
-    color: #222;
-    transition: background 0.3s ease, color 0.3s ease;
-}
-
-body.dark {
-    background: #1a1a1a;
-    color: #e5e5e5;
-}
-
-.topbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 20px;
-    background: #4CAF50;
-    color: white;
-}
-
-.topbar .logo {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.theme-btn {
-    background: transparent;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: white;
-    transition: transform 0.3s ease;
-}
-
-.theme-btn:hover {
-    transform: rotate(20deg);
-}
-
-body.dark .theme-btn {
-    color: #ffdd57;
-}
-
-main {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-h1 {
-    margin-bottom: 20px;
-    color: #333;
-}
-
-body.dark h1 {
-    color: #ddd;
-}
-
-.search-box {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto 20px auto;
-}
-
-#searchInput {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    border: 2px solid #4CAF50;
-    border-radius: 6px;
-    outline: none;
-    transition: 0.3s;
-}
-
-body.dark #searchInput {
-    background: #2a2a2a;
-    color: #eee;
-    border-color: #66bb6a;
-}
-
-#searchInput:focus {
-    border-color: #45a049;
-}
-
+body {margin: 0;font-family: Arial, sans-serif;background: #f7f7f7;color: #222;transition: background 0.3s ease, color 0.3s ease}
+body.dark {background: #1a1a1a;color: #e5e5e5}
+.topbar {display: flex;justify-content: space-between;align-items: center;padding: 12px 15px;background: #4CAF50;color: white}
+.topbar .logo {color: white;text-decoration: none;font-weight: bold}
+.theme-btn {background: transparent;border: none;font-size: 24px;cursor: pointer;color: white;transition: transform 0.3s ease}
+.theme-btn:hover {transform: rotate(20deg)}
+body.dark .theme-btn {color: #ffdd57}
+main {padding: 20px;display: flex;flex-direction: column;align-items: center}
+h1 {margin-bottom: 20px;color: #333}
+body.dark h1 {color: #ddd}
+.search-box {width: 92%;max-width: 880px}
+#searchInput {width: 100%;padding:12px; margin: 10px -15px; font-size: 16px;border: 2px solid #4CAF50;border-radius: 6px;outline: none;transition: 0.3s}
+body.dark #searchInput {background: #2a2a2a;color: #eee;border-color: #66bb6a}
+#searchInput:focus {border-color: #45a049}
 .table-wrapper {
     width: 100%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 5px -20px;
+    /*margin: 0 -10px 0 -15px;*/
     overflow-x: auto;
     background: white;
-    padding: 15px;
+    padding: 5px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-body.dark .table-wrapper {
-    background: #2a2a2a;
-    box-shadow: 0 0 10px rgba(255,255,255,0.05);
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-thead {
-    background: #4CAF50;
-    color: white;
-}
-
-body.dark thead {
-    background: #388E3C;
-}
-
-th, td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-}
-
-body.dark td {
-    border-bottom: 1px solid #444;
-}
-
-td a {
-    color: #0077cc;
-    text-decoration: none;
-}
-
-body.dark td a {
-    color: #66aaff;
-}
-
-td a:hover {
-    text-decoration: underline;
-}
-
-td img {
-    width: 32px;
-    height: 32px;
-    border-radius: 6px;
-}
-
-th.sortable {
-    cursor: pointer;
-    position: relative;
-}
-
+body.dark .table-wrapper {background: #2a2a2a;box-shadow: 0 0 10px rgba(255,255,255,0.05)}
+table {width: 100%;border-collapse: collapse}
+thead {background: #4CAF50;color: white}
+body.dark thead {background: #388E3C}
+th, td {padding: 12px;border-bottom: 1px solid #ddd}
+body.dark td {border-bottom: 1px solid #444}
+td a {color: #0077cc;text-decoration: none}
+body.dark td a {color: #66aaff}
+td a:hover {text-decoration: underline}
+td img {width: 32px;height: 32px;border-radius: 6px}
+th.sortable {cursor: pointer;position: relative}
 th.sortable::after {
     content: "⇅";
     font-size: 12px;
@@ -167,12 +54,12 @@ th.sortable.sorted-desc::after {
 
 #scrollTopBtn {
     position: fixed;
-    bottom: 25px;
-    right: 25px;
+    bottom: 10px;
+    right: 10px;
     background: #4CAF50;
     color: white;
     border: none;
-    padding: 12px 15px;
+    padding: 8px 10px;
     font-size: 20px;
     border-radius: 8px;
     cursor: pointer;
@@ -196,18 +83,8 @@ body.dark #scrollTopBtn:hover {
 }
 
 @media (max-width: 600px) {
-    th, td {
-        padding: 10px;
-        font-size: 14px;
-    }
-
-    .table-wrapper {
-        padding: 10px;
-    }
-
-    #scrollTopBtn {
-        bottom: 15px;
-        right: 15px;
-        font-size: 18px;
-    }
+    th, td {padding: 10px;font-size: 14px}
+    .table-wrapper {padding: 5px}
+    #scrollTopBtn {bottom: 15px;right: 15px;font-size: 18px}
+    h1 {text-align: center}
 }
