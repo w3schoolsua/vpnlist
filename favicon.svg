@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+	<title>VPN favicon</title>
+	<rect width="48" height="48" fill="none"/>
+
+	<!-- Green shield with fill -->
+	<path
+					d="M24 4
+       L10 9
+       v11
+       c0 9 6.3 14.3 14 18
+       c7.7-3.7 14-9 14-18
+       V9
+       Z"
+					fill="#4CAF50"
+					stroke="#4CAF50"
+					stroke-width="2.2"
+					stroke-linejoin="round"
+	/>
+
+	<!-- White VPN text centered inside shield -->
+	<text
+					x="24"
+					y="24"
+					text-anchor="middle"
+					font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+					font-size="11"
+					fill="#FFFFFF"
+					font-weight="700"
+	>
+		VPN
+	</text>
+</svg>
