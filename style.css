@@ -83,6 +83,8 @@ body.dark #scrollTopBtn:hover {
     background: #81c784;
 }
 
+.center {text-align: center}
+
 @media (max-width: 600px) {
     th, td {padding: 10px;font-size: 14px}
     .table-wrapper {padding: 5px}
