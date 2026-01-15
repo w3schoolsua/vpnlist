@@ -13,18 +13,7 @@ body.dark h1 {color: #ddd}
 #searchInput {width: 100%;padding:12px; margin: 10px -15px; font-size: 16px;border: 2px solid #4CAF50;border-radius: 6px;outline: none;transition: 0.3s}
 body.dark #searchInput {background: #2a2a2a;color: #eee;border-color: #008459}
 #searchInput:focus {border-color: #008459}
-.table-wrapper {
-    width: 100%;
-    max-width: 900px;
-    margin: 5px -20px;
-    /*margin: 0 -10px 0 -15px;*/
-    overflow-x: auto;
-    background: white;
-    padding: 5px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
+.table-wrapper {width: 100%;max-width: 900px;margin: 5px -20px;overflow-x: auto;background: white;padding: 5px;border-radius: 8px;box-shadow: 0 0 10px rgba(0,0,0,0.1)}
 body.dark .table-wrapper {background: #2a2a2a;box-shadow: 0 0 10px rgba(255,255,255,0.05)}
 table {width: 100%;border-collapse: collapse}
 thead {background: #008459;color: white}
@@ -36,58 +25,17 @@ body.dark td a {color: #66aaff}
 td a:hover {text-decoration: underline}
 td img {width: 32px;height: 32px;border-radius: 6px}
 th.sortable {cursor: pointer;position: relative}
-th.sortable::after {
-    content: "⇅";
-    font-size: 12px;
-    margin-left: 6px;
-    opacity: 0.5;
-}
-
-th.sortable.sorted-asc::after {
-    content: "▲";
-    opacity: 0.9;
-}
-
-th.sortable.sorted-desc::after {
-    content: "▼";
-    opacity: 0.9;
-}
-
-#scrollTopBtn {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background: #008459;
-    color: white;
-    border: none;
-    padding: 8px 10px;
-    font-size: 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    display: none;
-    transition: background 0.3s, transform 0.3s;
-    z-index: 999;
-}
-
-#scrollTopBtn:hover {
-    background: #45a049;
-    transform: translateY(-3px);
-}
-
-body.dark #scrollTopBtn {
-    background: #008459;
-    color: #222;
-}
-
-body.dark #scrollTopBtn:hover {
-    background: #81c784;
-}
-
+th.sortable::after {content: "⇅";font-size: 12px;margin-left: 6px;opacity: 0.5}
+th.sortable.sorted-asc::after {content: "▲";opacity: 0.9}
+th.sortable.sorted-desc::after {content: "▼";opacity: 0.9}
+#scrollTopBtn {position: fixed;bottom: 10px;right: 10px;background: #008459;color: white;border: none;padding: 8px 10px;font-size: 20px;border-radius: 8px;cursor: pointer;display: none;transition: background 0.3s, transform 0.3s;z-index: 999}
+#scrollTopBtn:hover {background: #45a049;transform: translateY(-3px)}
+body.dark #scrollTopBtn {background: #008459;color: #222}
+body.dark #scrollTopBtn:hover {background: #81c784}
 .center {text-align: center}
-
-@media (max-width: 600px) {
-    th, td {padding: 10px;font-size: 14px}
+.red {color:red}
+.green {color:green}
+@media (max-width: 600px) {th, td {padding: 10px;font-size: 14px}
     .table-wrapper {padding: 5px}
     #scrollTopBtn {bottom: 15px;right: 15px;font-size: 18px}
-    h1 {text-align: center}
-}
+    h1 {text-align: center}}
