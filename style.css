@@ -39,3 +39,16 @@ body.dark #scrollTopBtn:hover {background: #81c784}
     .table-wrapper {padding: 5px}
     #scrollTopBtn {bottom: 15px;right: 15px;font-size: 18px}
     h1 {text-align: center}}
+
+.adver_adup {display: block; text-align: center}
+.adver_adinarticle {display: block}
+.adver_addown {display:block; text-align: center}
+.adver_adfooter {display:block}
+.adver_adinfeed {display:block}
+.adver {display:none!important;}
+.adver2 {display:block}
+.adver3 {display:block}
+.admedia-square-rightbar {display:block}
+.adver_admultiplex1 {display:block}
+.adver_admultiplex_rightbar1 {display:block}
+ins.adsbygoogle[data-ad-status="unfilled"] {display: none !important;} /*Приховати блок AdSense, якщо реклама не відображається*/
