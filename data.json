@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "name": "<a href=\"https://protonvpn.com/free-vpn\" target=\"_blank\" rel=\"nofollow noopener\">Proton VPN Free</a>",
+    "type": "VPN-клієнт",
+    "traffic": "Безліміт",
+    "country": "Швейцарія",
+    "os": "Windows, macOS, Linux, Android, iOS",
+    "price": "0$",
+    "description": "Найкращий безплатний VPN. Висока безпека, без реклами."
+  },
+  {
+    "id": 2,
+    "name": "<a href=\"https://windscribe.com/\" target=\"_blank\" rel=\"nofollow noopener\">Windscribe Free</a>",
+    "type": "VPN-клієнт",
+    "traffic": "10 ГБ",
+    "country": "Канада",
+    "os": "Windows, macOS, Linux, Android, iOS, Chrome, Firefox",
+    "price": "0$",
+    "description": "Багато локацій, стабільний сервіс."
+  },
+  {
+    "id": 3,
+    "name": "<a href=\"https://www.tunnelbear.com/\" target=\"_blank\" rel=\"nofollow noopener\">TunnelBear Free</a>",
+    "type": "VPN-клієнт",
+    "traffic": "500 МБ",
+    "country": "Канада",
+    "os": "Windows, macOS, Android, iOS",
+    "price": "0$",
+    "description": "Простий та стабільний VPN."
+  },
+  {
+    "id": 4,
+    "name": "<a href=\"https://hide.me/en/free-vpn\" target=\"_blank\" rel=\"nofollow noopener\">Hide.me Free</a>",
+    "type": "VPN-клієнт",
+    "traffic": "10 ГБ",
+    "country": "Малайзія",
+    "os": "Windows, macOS, Linux, Android, iOS",
+    "price": "0$",
+    "description": "Надійний та швидкий VPN без реклами."
+  },
+  {
+    "id": 5,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=com.expressvpn.vpn&hl=uk\" target=\"_blank\" rel=\"nofollow noopener\">ExpressVPN Free Trial</a>",
+    "type": "Тріал",
+    "traffic": "Тимчасово",
+    "country": "Британські Віргінські Острови",
+    "os": "Windows, macOS, Linux, Android, iOS",
+    "price": "Платний (тріал)",
+    "description": "Дуже швидкий преміум VPN. Є сервери в Україні."
+  },
+  {
+    "id": 6,
+    "name": "<a href=\"https://nordvpn.com/download/\" target=\"_blank\" rel=\"nofollow noopener\">NordVPN Free Trial</a>",
+    "type": "Тріал",
+    "traffic": "Тимчасово",
+    "country": "Панама",
+    "os": "Windows, macOS, Linux, Android, iOS",
+    "price": "Платний (тріал)",
+    "description": "Преміум сервіс. Є сервери в Україні."
+  },
+  {
+    "id": 7,
+    "name": "<a href=\"https://one.one.one.one/uk-UA/\" target=\"_blank\" rel=\"nofollow noopener\">Cloudflare WARP 1.1.1.1</a>",
+    "type": "VPN-клієнт",
+    "traffic": "Безліміт",
+    "country": "США",
+    "os": "Windows, macOS, Android, iOS",
+    "price": "0$",
+    "description": "WARP прискорює та шифрує трафік."
+  },
+  {
+    "id": 8,
+    "name": "<a href=\"https://www.hotspotshield.com/\" target=\"_blank\" rel=\"nofollow noopener\">Hotspot Shield Free</a>",
+    "type": "VPN-клієнт",
+    "traffic": "Обмеження",
+    "country": "США",
+    "os": "Windows, macOS, Android, iOS",
+    "price": "0$",
+    "description": "Популярний безплатний VPN."
+  },
+  {
+    "id": 9,
+    "name": "<a href=\"https://www.cyberghostvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">CyberGhost VPN</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Безліміт",
+    "country": "Румунія",
+    "os": "Windows, macOS, Linux, Android, iOS, Chrome, Firefox, Smart TV, Router",
+    "price": "Платний (є короткий тріал)",
+    "description": "Преміум VPN із великою мережею серверів, політикою відсутності логів, підтримкою стримінгу, торентів та захистом Wi‑Fi. Один із найпопулярніших VPN‑сервісів у світі."
+  },
+  {
+    "id": 10,
+    "name": "<a href=\"https://privadovpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">PrivadoVPN Free</a>",
+    "type": "VPN-клієнт",
+    "traffic": "10 ГБ",
+    "country": "Швейцарія",
+    "os": "Windows, macOS, Android, iOS",
+    "price": "0$",
+    "description": "Швидкий та стабільний VPN."
+  },
+  {
+    "id": 11,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=com.atlasvpn.freeserver\" target=\"_blank\" rel=\"nofollow noopener\">Atlas VPN – Free & Secure</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Обмеження",
+    "country": "США",
+    "os": "Windows, macOS, Android, iOS",
+    "price": "0$ / Premium",
+    "description": "Швидкий і простий VPN‑клієнт із базовим безплатним планом, стабільним з’єднанням та підтримкою стримінгу. Належить компанії Nord Security."
+  },
+  {
+    "id": 12,
+    "name": "<a href=\"https://openvpn.net/\" target=\"_blank\" rel=\"nofollow noopener\">OpenVPN Connect</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Безліміт",
+    "country": "США",
+    "os": "Windows, macOS, Linux, Android, iOS, ChromeOS",
+    "price": "0$",
+    "description": "Офіційний клієнт OpenVPN для підключення до серверів через протокол OpenVPN. Підтримує профілі .ovpn, високу безпеку та стабільність. Один із найнадійніших VPN‑клієнтів."
+  },
+  {
+    "id": 13,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=com.phoneguardian\" target=\"_blank\" rel=\"nofollow noopener\">Phone Guardian VPN: Safe WiFi</a>",
+    "type": "VPN-клієнт",
+    "traffic": "Безліміт",
+    "country": "США",
+    "os": "Android, iOS",
+    "price": "0$",
+    "description": "Простий, швидкий і повністю безкоштовний VPN."
+  },
+  {
+    "id": 14,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=kr.co.crucialsoft.unicorn\" target=\"_blank\" rel=\"nofollow noopener\">Unicorn HTTPS: Secure & Fast</a>",
+    "type": "VPN-клієнт",
+    "traffic": "Безліміт",
+    "country": "Південна Корея",
+    "os": "Android",
+    "price": "0$",
+    "description": "Інструмент обходу DPI та цензури."
+  },
+  {
+    "id": 15,
+    "name": "<a href=\"https://speedify.com/\" target=\"_blank\" rel=\"nofollow noopener\">Speedify Free</a>",
+    "type": "VPN-клієнт",
+    "traffic": "2 ГБ",
+    "country": "США",
+    "os": "Windows, macOS, Android, iOS",
+    "price": "0$",
+    "description": "Оптимізація каналів та стабільність."
+  },
+    {
+      "id": 16,
+      "name": "<a href=\"https://zoogvpn.com/free-vpn/\" target=\"_blank\" rel=\"nofollow noopener\">ZoogVPN Free</a>",
+      "type": "VPN-клієнт",
+      "traffic": "10 ГБ",
+      "country": "Греція",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$",
+      "description": "Сервери в США та ЄС. Швидкий і стабільний VPN."
+    },
+    {
+      "id": 17,
+      "name": "<a href=\"https://chrome.google.com/webstore/detail/jego-vpn/\" target=\"_blank\" rel=\"nofollow noopener\">Jego VPN</a>",
+      "type": "Браузерне розширення",
+      "traffic": "Безліміт",
+      "country": "Сінгапур",
+      "os": "Chrome",
+      "price": "0$",
+      "description": "Швидке, безпечне та стабільне VPN‑розширення."
+    },
+    {
+      "id": 18,
+      "name": "<a href=\"https://setupvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">SetupVPN</a>",
+      "type": "Браузерне розширення",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Chrome, Firefox, Edge",
+      "price": "0$",
+      "description": "Безлімітний VPN із 100+ серверами."
+    },
+    {
+      "id": 19,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=com.fast.free.unblock.thunder.vpn\" target=\"_blank\" rel=\"nofollow noopener\">Thunder VPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Сінгапур",
+      "os": "Android",
+      "price": "0$",
+      "description": "Дуже швидкий безплатний VPN."
+    },
+    {
+      "id": 20,
+      "name": "<a href=\"https://potatovpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">PotatoVPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Сінгапур",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$",
+      "description": "Швидкий і стабільний VPN без реєстрації."
+    },
+    {
+      "id": 21,
+      "name": "<a href=\"https://clearvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">ClearVPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Україна",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "Український VPN від MacPaw із DynamicFlow та без логів."
+    },
+    {
+      "id": 22,
+      "name": "<a href=\"https://freevpnplanet.com/\" target=\"_blank\" rel=\"nofollow noopener\">Planet VPN Free</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Кіпр",
+      "os": "Windows, macOS, Android, iOS, Chrome, Firefox",
+      "price": "0$",
+      "description": "Без реєстрації, без логів, повністю безлімітний VPN."
+    },
+    {
+      "id": 23,
+      "name": "<a href=\"https://browsec.com/\" target=\"_blank\" rel=\"nofollow noopener\">Browsec VPN</a>",
+      "type": "Браузерне розширення",
+      "traffic": "Безліміт",
+      "country": "США / Кіпр",
+      "os": "Chrome, Firefox, Edge, Opera",
+      "price": "0$",
+      "description": "VPN‑розширення з AES‑256 та 40+ країн."
+    },
+    {
+      "id": 24,
+      "name": "<a href=\"https://psiphon.ca/\" target=\"_blank\" rel=\"nofollow noopener\">Psiphon</a>",
+      "type": "Антицензура",
+      "traffic": "Безліміт",
+      "country": "Канада",
+      "os": "Windows, Android, iOS",
+      "price": "0$",
+      "description": "Проксі + VPN. Інструмент обходу цензури."
+    },
+    {
+      "id": 25,
+      "name": "<a href=\"https://www.opera.com/features/free-vpn\" target=\"_blank\" rel=\"nofollow noopener\">Opera Browser VPN</a>",
+      "type": "Вбудований",
+      "traffic": "Безліміт",
+      "country": "Норвегія",
+      "os": "Windows, macOS, Linux (вбудовано в браузер)",
+      "price": "0$",
+      "description": "Вбудований VPN у браузері Opera. Обмежені можливості."
+    },
+    {
+      "id": 26,
+      "name": "<a href=\"https://www.torproject.org/\" target=\"_blank\" rel=\"nofollow noopener\">Tor Browser</a>",
+      "type": "Проксі",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, macOS, Linux, Android",
+      "price": "0$",
+      "description": "Анонімність через Tor-мережу. Не VPN, але забезпечує приватність."
+    },
+    {
+      "id": 27,
+      "name": "<a href=\"https://www.betternet.co/\" target=\"_blank\" rel=\"nofollow noopener\">Betternet Free</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Обмеження",
+      "country": "Канада",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$",
+      "description": "Простий інтерфейс, базовий безплатний VPN."
+    },
+    {
+      "id": 28,
+      "name": "<a href=\"https://www.vpnbook.com/\" target=\"_blank\" rel=\"nofollow noopener\">VPNBook Free</a>",
+      "type": "OpenVPN конфіги",
+      "traffic": "Безліміт",
+      "country": "Румунія",
+      "os": "OpenVPN, PPTP",
+      "price": "0$",
+      "description": "Безплатні OpenVPN-конфіги та сервери."
+    },
+    {
+      "id": 29,
+      "name": "<a href=\"https://www.securitykiss.com/\" target=\"_blank\" rel=\"nofollow noopener\">SecurityKISS</a>",
+      "type": "VPN-клієнт",
+      "traffic": "300 МБ/день",
+      "country": "Ірландія",
+      "os": "Windows, macOS, Android",
+      "price": "0$",
+      "description": "Старий, але працюючий VPN із денним лімітом."
+    },
+    {
+      "id": 30,
+      "name": "<a href=\"https://freenetvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">Freenet VPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Обмеження",
+      "country": "Німеччина",
+      "os": "Windows, Android",
+      "price": "0$",
+      "description": "Безплатний VPN-сервіс із базовими можливостями."
+    },
+    {
+      "id": 31,
+      "name": "<a href=\"https://riseup.net/en/vpn\" target=\"_blank\" rel=\"nofollow noopener\">RiseUp VPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, macOS, Linux, Android",
+      "price": "0$",
+      "description": "VPN для активістів. Орієнтований на приватність та безпеку."
+    },
+    {
+      "id": 32,
+      "name": "<a href=\"https://www.wireguard.com/\" target=\"_blank\" rel=\"nofollow noopener\">WireGuard Free Servers</a>",
+      "type": "Конфіги",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, macOS, Linux, Android, iOS",
+      "price": "0$",
+      "description": "Публічні сервери WireGuard. Це протокол, а не VPN‑сервіс."
+    },
+    {
+      "id": 33,
+      "name": "<a href=\"https://www.vpngate.net/en/\" target=\"_blank\" rel=\"nofollow noopener\">VPNGate</a>",
+      "type": "OpenVPN",
+      "traffic": "Безліміт",
+      "country": "Японія",
+      "os": "Windows, macOS, Linux, Android",
+      "price": "0$",
+      "description": "Академічний проєкт японського університету. Публічні VPN‑вузли."
+    },
+    {
+      "id": 34,
+      "name": "<a href=\"https://surfshark.com/download\" target=\"_blank\" rel=\"nofollow noopener\">Surfshark Free Trial</a>",
+      "type": "Тріал",
+      "traffic": "Тимчасово",
+      "country": "Нідерланди",
+      "os": "Windows, macOS, Linux, Android, iOS",
+      "price": "Платний (тріал)",
+      "description": "Повноцінний VPN із високою швидкістю та безлімітом. Є сервера в Україні."
+    },
+    {
+      "id": 35,
+      "name": "<a href=\"https://slickvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">SlickVPN Free Servers</a>",
+      "type": "Конфіги",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "OpenVPN",
+      "price": "0$",
+      "description": "Публічні вузли SlickVPN. Конфіги для OpenVPN."
+    },
+    {
+      "id": 36,
+      "name": "<a href=\"https://www.tigervpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">TigerVPN Free</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Обмеження",
+      "country": "Словаччина",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "Старий, але працюючий VPN‑клієнт."
+    },
+    {
+      "id": 37,
+      "name": "<a href=\"https://lantern.io/\" target=\"_blank\" rel=\"nofollow noopener\">Lantern</a>",
+      "type": "Антицензура",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, macOS, Android",
+      "price": "0$ / Premium",
+      "description": "Проксі + VPN. Інструмент обходу цензури."
+    },
+    {
+      "id": 38,
+      "name": "<a href=\"https://ultravpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">UltraVPN Free Trial</a>",
+      "type": "Тріал",
+      "traffic": "Тимчасово",
+      "country": "США",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "Платний (тріал)",
+      "description": "Швидкий VPN. Платний сервіс із пробним періодом."
+    },
+    {
+      "id": 39,
+      "name": "<a href=\"https://www.privateinternetaccess.com/\" target=\"_blank\" rel=\"nofollow noopener\">Private Internet Access (PIA)</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, macOS, Linux, Android, iOS",
+      "price": "Платний",
+      "description": "VPN із акцентом на приватність. Один із найпопулярніших."
+    },
+    {
+      "id": 40,
+      "name": "<a href=\"https://www.ipvanish.com/\" target=\"_blank\" rel=\"nofollow noopener\">IPVanish</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, macOS, Android, iOS, FireTV",
+      "price": "Платний",
+      "description": "VPN із фокусом на швидкість та безпеку."
+    },
+    {
+      "id": 41,
+      "name": "<a href=\"https://mullvad.net/\" target=\"_blank\" rel=\"nofollow noopener\">Mullvad VPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Швеція",
+      "os": "Windows, macOS, Linux, Android, iOS",
+      "price": "Платний",
+      "description": "VPN з анонімною оплатою та без логів. Один із найприватніших."
+    },
+    {
+      "id": 42,
+      "name": "<a href=\"https://internxt.com/vpn\" target=\"_blank\" rel=\"nofollow noopener\">Internxt VPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Іспанія",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "Платний",
+      "description": "VPN як частина екосистеми Internxt."
+    },
+    {
+      "id": 43,
+      "name": "<a href=\"https://privatevpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">PrivateVPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Швеція",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "Платний",
+      "description": "VPN із підтримкою стримінгу та P2P."
+    },
+    {
+      "id": 44,
+      "name": "<a href=\"https://www.vyprvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">VyprVPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Швейцарія",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "Платний",
+      "description": "VPN з власною інфраструктурою серверів."
+    },
+    {
+      "id": 45,
+      "name": "<a href=\"https://airvpn.org/\" target=\"_blank\" rel=\"nofollow noopener\">AirVPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Італія",
+      "os": "Windows, macOS, Linux, Android, iOS",
+      "price": "Платний",
+      "description": "VPN, орієнтований на приватність та свободу інтернету."
+    },
+    {
+      "id": 46,
+      "name": "<a href=\"https://torguard.net/\" target=\"_blank\" rel=\"nofollow noopener\">TorGuard</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, macOS, Linux, Android, iOS",
+      "price": "Платний",
+      "description": "VPN для торентів та стримінгу з високою швидкістю."
+    },
+    {
+      "id": 47,
+      "name": "<a href=\"https://strongvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">StrongVPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "Платний",
+      "description": "VPN з базовим набором функцій безпеки."
+    },
+    {
+      "id": 48,
+      "name": "<a href=\"https://www.mcafee.com/consumer/en-us/store/m0/catalog/mcafee-safe-connect.html\" target=\"_blank\" rel=\"nofollow noopener\">McAfee Safe Connect Free</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "Безплатний VPN від McAfee."
+    },
+    {
+      "id": 49,
+      "name": "<a href=\"https://sandvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">SandVPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, Android",
+      "price": "0$",
+      "description": "Безплатний VPN‑сервіс."
+    },
+    {
+      "id": 50,
+      "name": "<a href=\"https://1vpn.app/\" target=\"_blank\" rel=\"nofollow noopener\">1VPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Android, iOS",
+      "price": "0$",
+      "description": "Безплатний VPN‑сервіс."
+    },
+    {
+      "id": 51,
+      "name": "<a href=\"https://chrome.google.com/webstore/detail/1click-vpn/\" target=\"_blank\" rel=\"nofollow noopener\">1Click VPN</a>",
+      "type": "Браузерне розширення",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Chrome",
+      "price": "0$",
+      "description": "Безплатне VPN‑розширення для браузера."
+    },
+    {
+      "id": 52,
+      "name": "<a href=\"https://veepn.com/free-vpn/\" target=\"_blank\" rel=\"nofollow noopener\">Free VeePN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Кіпр",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "Безкоштовна версія VPN‑сервісу VeePN."
+    },
+    {
+      "id": 53,
+      "name": "<a href=\"https://freevpn.one/\" target=\"_blank\" rel=\"nofollow noopener\">Free VPN.one</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Windows, Android, iOS",
+      "price": "0$",
+      "description": "Безплатний VPN‑сервіс."
+    },
+    {
+      "id": 54,
+      "name": "<a href=\"https://dotvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">DotVPN: Fast & Private VPN</a>",
+      "type": "Браузерне розширення",
+      "traffic": "Безліміт",
+      "country": "Гонконг",
+      "os": "Chrome, Firefox, Opera",
+      "price": "0$ / Premium",
+      "description": "Безплатне VPN‑розширення з преміум‑планами."
+    },
+    {
+      "id": 55,
+      "name": "<a href=\"https://telleport.me/\" target=\"_blank\" rel=\"nofollow noopener\">Telleport – Best Free VPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Android, iOS",
+      "price": "0$",
+      "description": "Повністю безплатний VPN‑сервіс."
+    },
+    {
+      "id": 56,
+      "name": "<a href=\"https://uvpn.me/\" target=\"_blank\" rel=\"nofollow noopener\">uVPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Великобританія",
+      "os": "Windows, macOS, Android, iOS, Chrome",
+      "price": "0$ / Premium",
+      "description": "VPN‑сервіс з безплатним та платним планами."
+    },
+    {
+      "id": 57,
+      "name": "<a href=\"https://chrome.google.com/webstore/detail/vpnly-free-vpn-proxy/\" target=\"_blank\" rel=\"nofollow noopener\">VPNLY – Free VPN Proxy</a>",
+      "type": "Браузерне розширення",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Chrome",
+      "price": "0$",
+      "description": "Безплатне VPN‑розширення."
+    },
+    {
+      "id": 58,
+      "name": "<a href=\"https://freemybrowser.com/\" target=\"_blank\" rel=\"nofollow noopener\">FreeMyBrowser</a>",
+      "type": "Браузерне розширення",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Chrome, Firefox",
+      "price": "0$",
+      "description": "Безплатний VPN‑проксі для браузера."
+    },
+    {
+      "id": 59,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=com.ipunblock.vpn\" target=\"_blank\" rel=\"nofollow noopener\">IP Unblock VPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Android",
+      "price": "0$",
+      "description": "Безплатний VPN для обходу блокувань."
+    },
+    {
+      "id": 60,
+      "name": "<a href=\"https://www.purevpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">PureVPN Proxy</a>",
+      "type": "Браузерне розширення",
+      "traffic": "Безліміт",
+      "country": "Гонконг / Британські Віргінські Острови",
+      "os": "Chrome, Firefox, Edge",
+      "price": "0$ / Premium",
+      "description": "Безплатне VPN‑розширення від PureVPN."
+    },
+    {
+      "id": 61,
+      "name": "<a href=\"https://vpnproxymaster.com/\" target=\"_blank\" rel=\"nofollow noopener\">VPN Proxy Master</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Сінгапур",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "VPN із безплатним та платним планами."
+    },
+    {
+      "id": 62,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=com.signal.secure.vpn\" target=\"_blank\" rel=\"nofollow noopener\">Signal Secure VPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Android, iOS",
+      "price": "0$ / Premium",
+      "description": "VPN‑додаток з безплатною версією."
+    },
+    {
+      "id": 63,
+      "name": "<a href=\"https://veepn.com/\" target=\"_blank\" rel=\"nofollow noopener\">VeePN VPN – Secure VPN Proxy</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Кіпр",
+      "os": "Windows, macOS, Android, iOS, Chrome, Firefox",
+      "price": "0$ / Premium",
+      "description": "VPN‑додаток з безплатною версією."
+    },
+    {
+      "id": 64,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=free.vpn.unblock.proxy.vpn\" target=\"_blank\" rel=\"nofollow noopener\">Ping™ VPN – Free VPN Proxy</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Android",
+      "price": "0$",
+      "description": "Безплатний VPN‑додаток."
+    },
+    {
+      "id": 65,
+      "name": "<a href=\"https://adguard-vpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">AdGuard VPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Кіпр / Литва",
+      "os": "Windows, macOS, Android, iOS, Chrome, Firefox",
+      "price": "0$ / Premium",
+      "description": "VPN‑додаток з безплатним та платним планами."
+    },
+    {
+      "id": 66,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=com.greenhub.vpn\" target=\"_blank\" rel=\"nofollow noopener\">Greenhub Free VPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Android",
+      "price": "0$",
+      "description": "Повністю безплатний VPN‑додаток."
+    },
+    {
+      "id": 67,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=com.vpntype.freevpn\" target=\"_blank\" rel=\"nofollow noopener\">VPNTYPE</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Android",
+      "price": "0$",
+      "description": "Безплатний VPN‑додаток."
+    },
+    {
+      "id": 68,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=com.astar.vpn\" target=\"_blank\" rel=\"nofollow noopener\">Astar VPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Android",
+      "price": "0$ / Premium",
+      "description": "VPN‑додаток з безплатною версією."
+    },
+    {
+      "id": 69,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=com.titan.vpn\" target=\"_blank\" rel=\"nofollow noopener\">Titan Tunnel VPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Android",
+      "price": "0$",
+      "description": "Безплатний VPN‑додаток."
+    },
+    {
+      "id": 70,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=com.safum.freevpn\" target=\"_blank\" rel=\"nofollow noopener\">Safum Free VPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "США",
+      "os": "Android",
+      "price": "0$",
+      "description": "Повністю безплатний VPN‑додаток."
+    },
+    {
+      "id": 71,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=free.vpn.unblock.proxy.snapvpn\" target=\"_blank\" rel=\"nofollow noopener\">Snap VPN – Secure VPN Proxy</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Сінгапур",
+      "os": "Android",
+      "price": "0$",
+      "description": "Швидкий безплатний VPN‑додаток."
+    },
+    {
+      "id": 72,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=free.vpn.unblock.proxy.supervpn\" target=\"_blank\" rel=\"nofollow noopener\">Free VPN Super™ – Fast & Secure</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Сінгапур",
+      "os": "Android",
+      "price": "0$",
+      "description": "Безкоштовний VPN — необмежений проксі та швидкий майстер VPN."
+    },
+    {
+      "id": 73,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=com.now.vpn\" target=\"_blank\" rel=\"nofollow noopener\">Now VPN – Fast Secure Proxy</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Сінгапур",
+      "os": "Android",
+      "price": "0$",
+      "description": "Безплатний і необмежений VPN‑проксі для Android."
+    },
+    {
+      "id": 74,
+      "name": "<a href=\"https://beepassvpn.org/\" target=\"_blank\" rel=\"nofollow noopener\">BeePass VPN: Easy & Secure</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Іран / Канада",
+      "os": "Android",
+      "price": "0$",
+      "description": "Створений для боротьби з цензурою в Ірані. Прозорий та безпечний інструмент."
+    },
+  {
+    "id": 75,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=app.jumpjumpvpn.jumpjumpvpn\" target=\"_blank\" rel=\"nofollow noopener\">JumpJumpVPN – Fast & Secure</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Безліміт",
+    "country": "Сінгапур",
+    "os": "Android, iOS",
+    "price": "0$ / Premium",
+    "description": "Швидкий і надійний VPN‑додаток із глобальними серверами, стабільним з’єднанням та простим інтерфейсом. Підтримує високошвидкісні маршрути, анонімність та безпечний доступ до контенту."
+  },
+  {
+    "id": 76,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb\" target=\"_blank\" rel=\"nofollow noopener\">X-VPN – Private Browser VPN</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Безліміт",
+    "country": "Сінгапур",
+    "os": "Windows, macOS, Android, iOS",
+    "price": "0$ / Premium",
+    "description": "Популярний VPN‑додаток із високою швидкістю, приватним браузером, 8000+ серверами та стабільним з’єднанням. Підтримує стримінг, обхід блокувань і захист Wi‑Fi."
+  },
+  {
+    "id": 77,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=com.free.tiptop.vpn.proxy\" target=\"_blank\" rel=\"nofollow noopener\">TipTop VPN – Fast & Secure Proxy</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Безліміт",
+    "country": "США",
+    "os": "Android",
+    "price": "0$ / Premium",
+    "description": "Швидкий і простий VPN‑додаток для Android із безлімітним трафіком, стабільним з’єднанням та підтримкою проксі‑маршрутизації. Призначений для обходу блокувань і захисту Wi‑Fi."
+  },
+  {
+    "id": 78,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=com.vpn.lat\" target=\"_blank\" rel=\"nofollow noopener\">VPN.lat – Unlimited VPN Proxy</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Безліміт",
+    "country": "Мексика",
+    "os": "Android, iOS",
+    "price": "0$ / Premium",
+    "description": "Легкий та швидкий VPN‑додаток із безлімітним трафіком, простим інтерфейсом і великою кількістю серверів. Підтримує обхід блокувань та захист Wi‑Fi."
+  },
+  {
+    "id": 79,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=com.speedy.vpn\" target=\"_blank\" rel=\"nofollow noopener\">Speedy Quark VPN – VPN Master</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Безліміт",
+    "country": "Сінгапур",
+    "os": "Android",
+    "price": "0$ / Premium",
+    "description": "Швидкий та легкий VPN‑додаток із безлімітним трафіком, простим інтерфейсом і стабільним з’єднанням. Підтримує обхід блокувань, захист Wi‑Fi та приватний доступ до контенту."
+  },
+  {
+    "id": 80,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=com.starvpn\" target=\"_blank\" rel=\"nofollow noopener\">StarVPN – Fast VPN Proxy</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Безліміт",
+    "country": "США",
+    "os": "Android",
+    "price": "0$ / Premium",
+    "description": "Швидкий VPN‑додаток із безлімітним трафіком, простим інтерфейсом і стабільним з’єднанням. Підтримує обхід блокувань, захист Wi‑Fi та приватний доступ до контенту."
+  },
+    {
+      "id": 81,
+      "name": "<a href=\"https://www.avira.com/en/avira-phantom-vpn\" target=\"_blank\" rel=\"nofollow noopener\">Avira Phantom VPN Free</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "500 МБ",
+      "country": "Німеччина",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "VPN від антивірусного бренду Avira."
+    },
+    {
+      "id": 82,
+      "name": "<a href=\"https://www.avg.com/en-us/secure-vpn\" target=\"_blank\" rel=\"nofollow noopener\">AVG Secure VPN Free</a>",
+      "type": "Тріал",
+      "traffic": "Тимчасово",
+      "country": "Чехія",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "Платний (тріал)",
+      "description": "Антивірусний бренд AVG. Тимчасовий безплатний доступ."
+    },
+    {
+      "id": 83,
+      "name": "<a href=\"https://www.avast.com/secureline-vpn\" target=\"_blank\" rel=\"nofollow noopener\">Avast SecureLine Free</a>",
+      "type": "Тріал",
+      "traffic": "Тимчасово",
+      "country": "Чехія",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "Платний (тріал)",
+      "description": "Швидкий VPN від Avast. Антивірусний бренд."
+    },
+    {
+      "id": 84,
+      "name": "<a href=\"https://www.bitdefender.com/solutions/vpn.html\" target=\"_blank\" rel=\"nofollow noopener\">Bitdefender VPN Free</a>",
+      "type": "VPN-клієнт",
+      "traffic": "200 МБ/день",
+      "country": "Румунія",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "VPN від Bitdefender. Обмежений денний трафік."
+    },
+    {
+      "id": 85,
+      "name": "<a href=\"https://www.pandasecurity.com/en/homeusers/solutions/vpn/\" target=\"_blank\" rel=\"nofollow noopener\">Panda VPN Free</a>",
+      "type": "VPN-клієнт",
+      "traffic": "150 МБ/день",
+      "country": "Іспанія",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "Простий VPN від Panda Security."
+    },
+    {
+      "id": 86,
+      "name": "<a href=\"https://www.turbovpn.co/\" target=\"_blank\" rel=\"nofollow noopener\">Turbo VPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Китай / Сінгапур",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "Швидкий VPN з AES‑256 та kill‑switch. Обережно: пов’язують з Росією."
+    },
+    {
+      "id": 87,
+      "name": "<a href=\"https://www.urban-vpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">Urban VPN</a>",
+      "type": "P2P VPN",
+      "traffic": "Безліміт",
+      "country": "Ізраїль",
+      "os": "Windows, macOS, Android, iOS, Chrome, Firefox",
+      "price": "0$",
+      "description": "Повністю безплатний P2P VPN. Обережно: пов’язують з Росією."
+    },
+    {
+      "id": 88,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=cc.coolline.client.pro\" target=\"_blank\" rel=\"nofollow noopener\">Cool VPN Pro: Secure VPN Proxy</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Росія",
+      "os": "Android",
+      "price": "0$",
+      "description": "Швидкий безплатний VPN для Android. Обережно: пов’язують з Росією."
+    },
+    {
+      "id": 89,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=superb.vpn.fast\" target=\"_blank\" rel=\"nofollow noopener\">Superb VPN - Fast Super VPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Киргизстан",
+      "os": "Android",
+      "price": "0$",
+      "description": "VPN для анонімного доступу. Обережно: пов’язують з Росією."
+    },
+    {
+      "id": 90,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=blazar.vpn.proxy\" target=\"_blank\" rel=\"nofollow noopener\">Blazar VPN - Unlimited Proxy</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Киргизстан",
+      "os": "Android",
+      "price": "0$",
+      "description": "VPN для анонімного доступу. Обережно: пов’язують з Росією."
+    },
+    {
+      "id": 91,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=notvpn.app\" target=\"_blank\" rel=\"nofollow noopener\">NotVPN - безлімітний VPN | ВПН</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Росія",
+      "os": "Android",
+      "price": "0$",
+      "description": "Дозволяє обирати, які сайти шифрувати. Обережно: пов’язують з Росією."
+    },
+    {
+      "id": 92,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=vpn.house.unlimited\" target=\"_blank\" rel=\"nofollow noopener\">VPNHouse - Unlimited VPN App</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Росія",
+      "os": "Android",
+      "price": "0$",
+      "description": "Доступ до Instagram, TikTok, Netflix, Snapchat. Обережно: пов’язують з Росією."
+    },
+    {
+      "id": 93,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=vpn.master.secure\" target=\"_blank\" rel=\"nofollow noopener\">VPN Master: Ваша Анонімність</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Росія",
+      "os": "Android",
+      "price": "0$",
+      "description": "Один із численних клонів VPN Master. Обережно: пов’язують з Росією."
+    },
+    {
+      "id": 94,
+      "name": "<a href=\"https://www.kaspersky.com/vpn-secure-connection\" target=\"_blank\" rel=\"nofollow noopener\">Kaspersky Secure Connection Free</a>",
+      "type": "VPN-клієнт",
+      "traffic": "200 МБ/день",
+      "country": "Росія",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "VPN від Kaspersky. Обережно: цілком російський."
+    },
+    {
+      "id": 95,
+      "name": "<a href=\"https://amnezia.org/\" target=\"_blank\" rel=\"nofollow noopener\">Amnezia Free VPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Росія",
+      "os": "Windows, macOS, Linux, Android",
+      "price": "0$",
+      "description": "Open‑source VPN. Створений російськими «інтернет‑активістами». Обережно!"
+    },
+    {
+      "id": 96,
+      "name": "<a href=\"https://hola.org/\" target=\"_blank\" rel=\"nofollow noopener\">Hola VPN</a>",
+      "type": "Браузерне розширення",
+      "traffic": "Безліміт",
+      "country": "Ізраїль",
+      "os": "Chrome, Firefox, Edge, Android, iOS",
+      "price": "0$ / Premium",
+      "description": "P2P VPN‑розширення з ризиками. Можливі російські вузли. НЕ РЕКОМЕНДОВАНО."
+    },
+    {
+      "id": 97,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=us.supervpn.freevpn\" target=\"_blank\" rel=\"nofollow noopener\">SuperVPN</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Китай",
+      "os": "Android",
+      "price": "0$ / Premium",
+      "description": "VPN‑додаток для Android з безплатною версією. Не рекомендовано!"
+    },
+    {
+      "id": 98,
+      "name": "<a href=\"https://play.google.com/store/apps/details?id=free.vpn.unblock.proxy.master\" target=\"_blank\" rel=\"nofollow noopener\">Super VPN Proxy - Proxy Master</a>",
+      "type": "VPN‑клієнт",
+      "traffic": "Безліміт",
+      "country": "Китай",
+      "os": "Android",
+      "price": "0$",
+      "description": "Необмежений безкоштовний VPN Proxy Master. Не рекомендовано!"
+    },
+    {
+      "id": 99,
+      "name": "<a href=\"https://www.cyberghostvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">CyberGhost Free Trial</a>",
+      "type": "Тріал",
+      "traffic": "Тимчасово",
+      "country": "Невідомо",
+      "os": "Windows, macOS, Android, iOS",
+      "price": "Платний (тріал)",
+      "description": "Велика мережа серверів. Платний VPN із пробним періодом."
+    },
+    {
+      "id": 100,
+      "name": "<a href=\"https://www.freelan.org/\" target=\"_blank\" rel=\"nofollow noopener\">FreeLAN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Невідомо",
+      "os": "Windows, macOS, Linux",
+      "price": "0$",
+      "description": "Безплатний open‑source VPN‑клієнт."
+    },
+    {
+      "id": 101,
+      "name": "<a href=\"https://www.infradead.org/openconnect/\" target=\"_blank\" rel=\"nofollow noopener\">OpenConnect</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Невідомо",
+      "os": "Windows, macOS, Linux, Android",
+      "price": "0$",
+      "description": "Безплатний open‑source VPN‑клієнт, сумісний із Cisco AnyConnect."
+    },
+  {
+    "id": 102,
+    "name": "<a href=\"https://belkavpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">BelkaVPN</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Безліміт",
+    "country": "США",
+    "os": "Windows, macOS, Android, iOS",
+    "price": "0$ / Premium",
+    "description": "Швидкий та простий VPN‑клієнт із безлімітним трафіком, стабільним з’єднанням та підтримкою приватного доступу до контенту. Орієнтований на легкість використання та базовий захист."
+  },
+  {
+    "id": 103,
+    "name": "<a href=\"https://play.google.com/store/apps/details?id=vpn.ukraine_tap2free\" target=\"_blank\" rel=\"nofollow noopener\">VPN Ukraine – Get Ukrainian IP</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Безліміт",
+    "country": "Україна",
+    "os": "Android",
+    "price": "0$ / Premium",
+    "description": "VPN‑додаток для отримання української IP‑адреси. Простий інтерфейс, швидке підключення та безлімітний трафік. Підходить для доступу до українських сервісів і захисту Wi‑Fi."
+  },
+  {
+    "id": 104,
+    "name": "<a href=\"https://zenvpn.net/\" target=\"_blank\" rel=\"nofollow noopener\">zenVPN</a>",
+    "type": "VPN‑клієнт",
+    "traffic": "Обмеження",
+    "country": "Сейшели",
+    "os": "Windows, macOS, Android",
+    "price": "Платний (є лімітований безплатний режим)",
+    "description": "Простий VPN‑сервіс із мінімалістичним інтерфейсом, підтримкою українських серверів та базовим рівнем приватності. Має обмежений безплатний режим і повний доступ у платній версії."
+  }
+]

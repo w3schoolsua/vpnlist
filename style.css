@@ -1,3 +1,4 @@
+/* Стилі для https://w3schoolsua.github.io/vpnlist/index.html */
 body {margin: 0;font-family: Arial, sans-serif;background: #f7f7f7;color: #222;transition: background 0.3s ease, color 0.3s ease}
 body.dark {background: #1a1a1a;color: #e5e5e5}
 .topbar {display: flex;justify-content: space-between;align-items: center;padding: 5px 15px;background: #008459;color: white}
@@ -9,11 +10,11 @@ body.dark .theme-btn {color: #ffdd57}
 main {padding: 10px;display: flex;flex-direction: column;align-items: center}
 h1 {margin-bottom: 20px;color: #333}
 body.dark h1 {color: #ddd}
-.search-box {width: 92%;max-width: 880px}
+.search-box {width: 92%;max-width: 860px}
 #searchInput {width: 100%;padding:12px; margin: 10px -15px; font-size: 16px;border: 2px solid #4CAF50;border-radius: 6px;outline: none;transition: 0.3s}
 body.dark #searchInput {background: #2a2a2a;color: #eee;border-color: #008459}
 #searchInput:focus {border-color: #008459}
-.table-wrapper {width: 100%;max-width: 900px;margin: 5px -20px;overflow-x: auto;background: white;padding: 5px;border-radius: 8px;box-shadow: 0 0 10px rgba(0,0,0,0.1)}
+.table-wrapper {width: 100%;max-width: 990px;margin: 5px -20px;overflow-x: auto;background: white;padding: 5px;border-radius: 8px;box-shadow: 0 0 10px rgba(0,0,0,0.1)}
 body.dark .table-wrapper {background: #2a2a2a;box-shadow: 0 0 10px rgba(255,255,255,0.05)}
 table {width: 100%;border-collapse: collapse}
 thead {background: #008459;color: white}
@@ -35,10 +36,13 @@ body.dark #scrollTopBtn:hover {background: #81c784}
 .center {text-align: center}
 .red {color:red}
 .green {color:green}
-@media (max-width: 600px) {th, td {padding: 10px;font-size: 14px}
+@media (max-width: 600px) {
+    th, td {padding: 10px;font-size: 14px}
     .table-wrapper {padding: 5px}
     #scrollTopBtn {bottom: 15px;right: 15px;font-size: 18px}
-    h1 {text-align: center}}
+    h1 {text-align: center}
+    .search-box {width: 98%;max-width: 320px}
+}
 
 .adver_adup {display: block; text-align: center}
 .adver_adinarticle {display: block}

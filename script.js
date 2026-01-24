@@ -1,119 +1,208 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const body = document.body;
-    const themeToggle = document.getElementById("themeToggle");
-    const themeIcon = document.getElementById("themeIcon");
-    const searchInput = document.getElementById("searchInput");
-    const table = document.getElementById("vpnTable");
-    const scrollBtn = document.getElementById("scrollTopBtn");
+/*
+===========================================================
+  Тема, кнопка вгору, VPN-таблиця з JSON, пошуком, фільтрами, сортуванням
+===========================================================
+*/
 
-    function detectTimeTheme() {
-        const hour = new Date().getHours();
-        return hour >= 20 || hour < 7 ? "dark" : "light";
+// ===== Перемикач теми =====
+const themeToggle = document.getElementById('themeToggle');
+const themeIcon = document.getElementById('themeIcon');
+
+(function initTheme() {
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark') {
+        document.body.classList.add('dark');
+        themeIcon.textContent = '☀️';
+    } else {
+        document.body.classList.remove('dark');
+        themeIcon.textContent = '🌙';
     }
+})();
 
-    function updateIcon() {
-        if (!themeIcon) return;
-        themeIcon.textContent = body.classList.contains("dark") ? "☀️" : "🌙";
-    }
+themeToggle.addEventListener('click', () => {
+    const isDark = document.body.classList.toggle('dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    themeIcon.textContent = isDark ? '☀️' : '🌙';
+});
 
-    function loadTheme() {
-        const savedTheme = localStorage.getItem("theme");
-        if (savedTheme) {
-            body.classList.toggle("dark", savedTheme === "dark");
-        } else {
-            const autoTheme = detectTimeTheme();
-            body.classList.toggle("dark", autoTheme === "dark");
-        }
-        updateIcon();
-    }
+// ===== Кнопка "Вгору" =====
+const scrollBtn = document.getElementById('scrollTopBtn');
 
-    if (themeToggle) {
-        themeToggle.addEventListener("click", () => {
-            body.classList.toggle("dark");
-            localStorage.setItem(
-                "theme",
-                body.classList.contains("dark") ? "dark" : "light"
-            );
-            updateIcon();
-        });
-    }
-
-    loadTheme();
-
-    if (searchInput && table) {
-        searchInput.addEventListener("keyup", () => {
-            const filter = searchInput.value.toLowerCase();
-            const rows = table.getElementsByTagName("tr");
-            for (let i = 1; i < rows.length; i++) {
-                const text = rows[i].textContent.toLowerCase();
-                rows[i].style.display = text.includes(filter) ? "" : "none";
-            }
-        });
-    }
-
-    if (scrollBtn) {
-        window.addEventListener("scroll", () => {
-            scrollBtn.style.display = window.scrollY > 300 ? "block" : "none";
-        });
-
-        scrollBtn.addEventListener("click", () => {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-    }
-
-    if (table) {
-        const headers = table.querySelectorAll("thead th.sortable");
-        let sortState = {};
-
-        headers.forEach((header, index) => {
-            header.addEventListener("click", () => {
-                const type = header.getAttribute("data-sort") || "text";
-                const isAsc = !(sortState[index] === "asc");
-                sortState = {};
-                sortState[index] = isAsc ? "asc" : "desc";
-
-                headers.forEach(h => {
-                    h.classList.remove("sorted-asc", "sorted-desc");
-                });
-                header.classList.add(isAsc ? "sorted-asc" : "sorted-desc");
-
-                sortTableByColumn(table, index, type, isAsc);
-            });
-        });
-
-        function sortTableByColumn(table, columnIndex, type = "text", asc = true) {
-            const tbody = table.tBodies[0];
-            const rowsArray = Array.from(tbody.querySelectorAll("tr"));
-            const direction = asc ? 1 : -1;
-
-            const getCellValue = (row) => {
-                const cell = row.children[columnIndex];
-                if (!cell) return "";
-
-                const dataValue = cell.getAttribute("data-value");
-                if (dataValue !== null) {
-                    if (type === "num") {
-                        return parseFloat(dataValue.replace(',', '.')) || 0;
-                    }
-                    return dataValue.toLowerCase();
-                }
-
-                const text = cell.textContent.trim();
-                return type === "num"
-                    ? parseFloat(text.replace(/[^\d.,]/g, '').replace(',', '.')) || 0
-                    : text.toLowerCase();
-            };
-
-            rowsArray.sort((a, b) => {
-                const aVal = getCellValue(a);
-                const bVal = getCellValue(b);
-
-                if (aVal < bVal) return -1 * direction;
-                if (aVal > bVal) return 1 * direction;
-                return 0;
-            });
-
-            rowsArray.forEach(row => tbody.appendChild(row));
-        }
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        scrollBtn.style.display = 'block';
+    } else {
+        scrollBtn.style.display = 'none';
     }
 });
+
+scrollBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// ===== VPN Таблиця з JSON =====
+const tableContainer = document.getElementById("tableContainer");
+const searchInput = document.getElementById("searchInput");
+const typeFilter = document.getElementById("typeFilter");
+const countryFilter = document.getElementById("countryFilter");
+
+let originalData = [];
+let filteredData = [];
+let sortColumn = null;
+let sortDirection = "asc";
+
+/*
+    Завантаження локального JSON
+*/
+async function loadData() {
+    tableContainer.innerHTML = `<div class="no-data">Завантаження…</div>`;
+
+    try {
+        const response = await fetch("./data.json");
+        if (!response.ok) throw new Error("Помилка завантаження JSON");
+
+        originalData = await response.json();
+        filteredData = [...originalData];
+
+        fillFilters();
+        renderTable();
+    } catch (err) {
+        tableContainer.innerHTML = `<div class="no-data">Помилка завантаження даних</div>`;
+        console.error(err);
+    }
+}
+
+/*
+    Автоматичне заповнення фільтрів (Тип, Країна)
+*/
+function fillFilters() {
+    const types = [...new Set(originalData.map(item => item.type))];
+    const countries = [...new Set(originalData.map(item => item.country))];
+
+    typeFilter.innerHTML = `<option value="">Всі типи</option>` +
+        types.map(t => `<option value="${t}">${t}</option>`).join("");
+
+    countryFilter.innerHTML = `<option value="">Всі країни</option>` +
+        countries.map(c => `<option value="${c}">${c}</option>`).join("");
+}
+
+/*
+    Рендер таблиці
+*/
+function renderTable() {
+    if (!filteredData.length) {
+        tableContainer.innerHTML = `<div class="no-data">Немає даних</div>`;
+        return;
+    }
+
+    let html = `
+        <table>
+            <thead>
+                <tr>
+                    <th data-col="id">№</th>
+                    <th data-col="name">Назва</th>
+                    <th data-col="type">Тип</th>
+                    <th data-col="traffic">Ліміт трафіку</th>
+                    <th data-col="country">Країна</th>
+                    <th data-col="os">Операційна система</th>
+                    <th data-col="price">Ціна</th>
+                    <th data-col="description">Опис</th>
+                </tr>
+            </thead>
+            <tbody>
+    `;
+
+    filteredData.forEach(row => {
+        html += `
+            <tr>
+                <td>${row.id}</td>
+                <td>${row.name}</td>
+                <td>${row.type}</td>
+                <td>${row.traffic}</td>
+                <td>${row.country}</td>
+                <td>${row.os}</td>
+                <td>${row.price}</td>
+                <td>${row.description}</td>
+            </tr>
+        `;
+    });
+
+    html += `</tbody></table>`;
+    tableContainer.innerHTML = html;
+
+    // Сортування
+    document.querySelectorAll("th").forEach(th => {
+        th.addEventListener("click", () => sortByColumn(th.dataset.col));
+    });
+
+    // Класи сортування
+    document.querySelectorAll("th").forEach(th => th.classList.remove("sort-asc", "sort-desc"));
+    if (sortColumn) {
+        const th = document.querySelector(`th[data-col="${sortColumn}"]`);
+        if (th) th.classList.add(sortDirection === "asc" ? "sort-asc" : "sort-desc");
+    }
+}
+
+/*
+    Пошук + фільтри
+*/
+function applyFilters() {
+    const search = searchInput.value.toLowerCase();
+    const type = typeFilter.value;
+    const country = countryFilter.value;
+
+    filteredData = originalData.filter(item => {
+        const matchesSearch = Object.values(item).some(val =>
+            String(val).toLowerCase().includes(search)
+        );
+
+        const matchesType = type ? item.type === type : true;
+        const matchesCountry = country ? item.country === country : true;
+
+        return matchesSearch && matchesType && matchesCountry;
+    });
+
+    renderTable();
+}
+
+searchInput.addEventListener("input", applyFilters);
+typeFilter.addEventListener("change", applyFilters);
+countryFilter.addEventListener("change", applyFilters);
+
+/*
+    Сортування
+*/
+function sortByColumn(col) {
+    if (sortColumn === col) {
+        sortDirection = sortDirection === "asc" ? "desc" : "asc";
+    } else {
+        sortColumn = col;
+        sortDirection = "asc";
+    }
+
+    filteredData.sort((a, b) => {
+        const valA = a[col];
+        const valB = b[col];
+
+        // Числове сортування, якщо можливо
+        const numA = parseFloat(String(valA).replace(',', '.'));
+        const numB = parseFloat(String(valB).replace(',', '.'));
+        const bothNumeric = !isNaN(numA) && !isNaN(numB);
+
+        if (bothNumeric) {
+            return sortDirection === "asc" ? numA - numB : numB - numA;
+        }
+
+        // Текстове сортування
+        return sortDirection === "asc"
+            ? String(valA).localeCompare(String(valB))
+            : String(valB).localeCompare(String(valA));
+    });
+
+    renderTable();
+}
+
+/*
+    Старт
+*/
+loadData();
