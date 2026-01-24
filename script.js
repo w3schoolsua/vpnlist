@@ -206,3 +206,49 @@ function sortByColumn(col) {
     Старт
 */
 loadData();
+
+
+/* Стрілочки в меню таблиці для сортування */
+document.querySelectorAll("th").forEach((th, index) => {
+    th.addEventListener("click", () => {
+        const table = th.closest("table");
+        const tbody = table.querySelector("tbody");
+        const rows = Array.from(tbody.querySelectorAll("tr"));
+
+        const isAsc = th.classList.contains("sorted-asc");
+
+        // скидаємо класи на всіх заголовках
+        table.querySelectorAll("th").forEach(h => h.classList.remove("sorted-asc", "sorted-desc"));
+
+        // ставимо новий клас
+        th.classList.add(isAsc ? "sorted-desc" : "sorted-asc");
+
+        const direction = isAsc ? -1 : 1;
+
+        rows.sort((a, b) => {
+            const A = a.children[index].innerText.trim().toLowerCase();
+            const B = b.children[index].innerText.trim().toLowerCase();
+
+            if (!isNaN(A) && !isNaN(B)) {
+                return (Number(A) - Number(B)) * direction;
+            }
+
+            return A.localeCompare(B) * direction;
+        });
+
+        rows.forEach(row => tbody.appendChild(row));
+    });
+});
+
+/* Дата оновлення сторінки */
+document.addEventListener("DOMContentLoaded", () => {
+    const el = document.getElementById("updated-date");
+
+    const date = new Date(document.lastModified);
+
+    const day = String(date.getDate()).padStart(2, "0");
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const year = date.getFullYear();
+
+    el.textContent = `сторінку оновлено: ${day}.${month}.${year}`;
+});

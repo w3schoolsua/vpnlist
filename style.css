@@ -25,10 +25,14 @@ td a {color: #0077cc;text-decoration: none}
 body.dark td a {color: #66aaff}
 td a:hover {text-decoration: underline}
 td img {width: 32px;height: 32px;border-radius: 6px}
-th.sortable {cursor: pointer;position: relative}
-th.sortable::after {content: "⇅";font-size: 12px;margin-left: 6px;opacity: 0.5}
-th.sortable.sorted-asc::after {content: "▲";opacity: 0.9}
-th.sortable.sorted-desc::after {content: "▼";opacity: 0.9}
+
+th {position: relative;cursor: pointer;user-select: none;padding-right: 18px;  /* місце для стрілочок */}
+th:hover {color: #fbf7b1; /* легкий натяк, що це активний елемент */}
+th::after {content: "⇅";position: absolute;right: 6px;top: 50%;transform: translateY(-50%);font-size: 12px;opacity: 0.4;transition: opacity 0.2s;}
+th:hover::after {opacity: 0.9;}
+th.sorted-asc::after {content: "↑";opacity: 1;}
+th.sorted-desc::after {content: "↓";opacity: 1;}
+
 #scrollTopBtn {position: fixed;bottom: 10px;right: 10px;background: #008459;color: white;border: none;padding: 8px 10px;font-size: 20px;border-radius: 8px;cursor: pointer;display: none;transition: background 0.3s, transform 0.3s;z-index: 999}
 #scrollTopBtn:hover {background: #45a049;transform: translateY(-3px)}
 body.dark #scrollTopBtn {background: #008459;color: #222}
@@ -41,8 +45,10 @@ body.dark #scrollTopBtn:hover {background: #81c784}
     .table-wrapper {padding: 5px}
     #scrollTopBtn {bottom: 15px;right: 15px;font-size: 18px}
     h1 {text-align: center}
-    .search-box {width: 98%;max-width: 320px}
+    .search-box {width: 92%;max-width: 480px}
 }
+
+
 
 .adver_adup {display: block; text-align: center}
 .adver_adinarticle {display: block}
