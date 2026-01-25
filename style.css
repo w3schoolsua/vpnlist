@@ -8,9 +8,10 @@ body.dark {background: #1a1a1a;color: #e5e5e5}
 .theme-btn:hover {transform: rotate(20deg)}
 body.dark .theme-btn {color: #ffdd57}
 main {padding: 10px;display: flex;flex-direction: column;align-items: center}
-h1 {margin-bottom: 20px;color: #333}
+h1 {text-align: center; margin-bottom: 20px;color: #333}
 body.dark h1 {color: #ddd}
-.search-box {width: 92%;max-width: 860px}
+.search-box {width: 96%;max-width: 920px}
+.filter-box {width: 100%;max-width: 960px}
 #searchInput {width: 100%;padding:12px; margin: 10px -15px; font-size: 16px;border: 2px solid #4CAF50;border-radius: 6px;outline: none;transition: 0.3s}
 body.dark #searchInput {background: #2a2a2a;color: #eee;border-color: #008459}
 #searchInput:focus {border-color: #008459}
@@ -44,7 +45,7 @@ body.dark #scrollTopBtn:hover {background: #81c784}
     th, td {padding: 10px;font-size: 14px}
     .table-wrapper {padding: 5px}
     #scrollTopBtn {bottom: 15px;right: 15px;font-size: 18px}
-    h1 {text-align: center}
+    h1 {font-size: 0.95rem}
     .search-box {width: 92%;max-width: 480px}
 }
 

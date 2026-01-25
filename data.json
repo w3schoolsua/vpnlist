@@ -44,7 +44,7 @@
     "name": "<a href=\"https://play.google.com/store/apps/details?id=com.expressvpn.vpn&hl=uk\" target=\"_blank\" rel=\"nofollow noopener\">ExpressVPN Free Trial</a>",
     "type": "Тріал",
     "traffic": "Тимчасово",
-    "country": "Брит. Віргін. Ост-ви",
+    "country": "Брит. Вірг. о-ви",
     "os": "Windows, macOS, Linux, Android, iOS",
     "price": "Платний (тріал)",
     "description": "Дуже швидкий преміум VPN. Є сервери в Україні."
@@ -162,7 +162,7 @@
     {
       "id": 17,
       "name": "<a href=\"https://chrome.google.com/webstore/detail/jego-vpn/\" target=\"_blank\" rel=\"nofollow noopener\">Jego VPN</a>",
-      "type": "Браузерне розширення",
+      "type": "Брауз. роз-ня",
       "traffic": "Безліміт",
       "country": "Сінгапур",
       "os": "Chrome",
@@ -172,7 +172,7 @@
     {
       "id": 18,
       "name": "<a href=\"https://setupvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">SetupVPN</a>",
-      "type": "Браузерне розширення",
+      "type": "Брауз. роз-ня",
       "traffic": "Безліміт",
       "country": "США",
       "os": "Chrome, Firefox, Edge",
@@ -222,7 +222,7 @@
     {
       "id": 23,
       "name": "<a href=\"https://browsec.com/\" target=\"_blank\" rel=\"nofollow noopener\">Browsec VPN</a>",
-      "type": "Браузерне розширення",
+      "type": "Брауз. роз-ня",
       "traffic": "Безліміт",
       "country": "США / Кіпр",
       "os": "Chrome, Firefox, Edge, Opera",
@@ -502,7 +502,7 @@
     {
       "id": 51,
       "name": "<a href=\"https://chrome.google.com/webstore/detail/1click-vpn/\" target=\"_blank\" rel=\"nofollow noopener\">1Click VPN</a>",
-      "type": "Браузерне розширення",
+      "type": "Брауз. роз-ня",
       "traffic": "Безліміт",
       "country": "США",
       "os": "Chrome",
@@ -532,7 +532,7 @@
     {
       "id": 54,
       "name": "<a href=\"https://dotvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">DotVPN: Fast & Private VPN</a>",
-      "type": "Браузерне розширення",
+      "type": "Брауз. роз-ня",
       "traffic": "Безліміт",
       "country": "Гонконг",
       "os": "Chrome, Firefox, Opera",
@@ -562,7 +562,7 @@
     {
       "id": 57,
       "name": "<a href=\"https://chrome.google.com/webstore/detail/vpnly-free-vpn-proxy/\" target=\"_blank\" rel=\"nofollow noopener\">VPNLY – Free VPN Proxy</a>",
-      "type": "Браузерне розширення",
+      "type": "Брауз. роз-ня",
       "traffic": "Безліміт",
       "country": "США",
       "os": "Chrome",
@@ -572,7 +572,7 @@
     {
       "id": 58,
       "name": "<a href=\"https://freemybrowser.com/\" target=\"_blank\" rel=\"nofollow noopener\">FreeMyBrowser</a>",
-      "type": "Браузерне розширення",
+      "type": "Брауз. роз-ня",
       "traffic": "Безліміт",
       "country": "США",
       "os": "Chrome, Firefox",
@@ -592,7 +592,7 @@
     {
       "id": 60,
       "name": "<a href=\"https://www.purevpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">PureVPN Proxy</a>",
-      "type": "Браузерне розширення",
+      "type": "Брауз. роз-ня",
       "traffic": "Безліміт",
       "country": "Гонконг / БВО",
       "os": "Chrome, Firefox, Edge",
@@ -854,7 +854,7 @@
       "name": "<a href=\"https://www.turbovpn.co/\" target=\"_blank\" rel=\"nofollow noopener\">Turbo VPN</a>",
       "type": "VPN-клієнт",
       "traffic": "Безліміт",
-      "country": "Китай / Сінгапур",
+      "country": "Китай/Сінгапур",
       "os": "Windows, macOS, Android, iOS",
       "price": "0$ / Premium",
       "description": "Швидкий VPN з AES‑256 та kill‑switch. Обережно: пов’язують з Росією."
@@ -952,7 +952,7 @@
     {
       "id": 96,
       "name": "<a href=\"https://hola.org/\" target=\"_blank\" rel=\"nofollow noopener\">Hola VPN</a>",
-      "type": "Браузерне розширення",
+      "type": "Брауз. роз-ня",
       "traffic": "Безліміт",
       "country": "Ізраїль",
       "os": "Chrome, Firefox, Edge, Android, iOS",
