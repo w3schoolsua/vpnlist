@@ -951,6 +951,16 @@
     },
     {
       "id": 96,
+      "name": "<a href=\"https://blancvpn.icu/ru/\" target=\"_blank\" rel=\"nofollow noopener\">BlancVPN</a>",
+      "type": "VPN-клієнт",
+      "traffic": "Безліміт",
+      "country": "Росія",
+      "os": "Windows, macOS, Linux, Android, Chrome, Firefox, SmartTV",
+      "price": "Платний/$3-$8",
+      "description": "Платний VPN. Рекомендується багатьма російськими інтернет‑блогерами. Обережно!"
+    },
+    {
+      "id": 97,
       "name": "<a href=\"https://hola.org/\" target=\"_blank\" rel=\"nofollow noopener\">Hola VPN</a>",
       "type": "Брауз. роз-ня",
       "traffic": "Безліміт",
@@ -960,7 +970,7 @@
       "description": "P2P VPN‑розширення з ризиками. Можливі російські вузли. НЕ РЕКОМЕНДОВАНО."
     },
     {
-      "id": 97,
+      "id": 98,
       "name": "<a href=\"https://play.google.com/store/apps/details?id=us.supervpn.freevpn\" target=\"_blank\" rel=\"nofollow noopener\">SuperVPN</a>",
       "type": "VPN‑клієнт",
       "traffic": "Безліміт",
@@ -970,7 +980,7 @@
       "description": "VPN‑додаток для Android з безплатною версією. Не рекомендовано!"
     },
     {
-      "id": 98,
+      "id": 99,
       "name": "<a href=\"https://play.google.com/store/apps/details?id=free.vpn.unblock.proxy.master\" target=\"_blank\" rel=\"nofollow noopener\">Super VPN Proxy - Proxy Master</a>",
       "type": "VPN‑клієнт",
       "traffic": "Безліміт",
@@ -980,7 +990,7 @@
       "description": "Необмежений безкоштовний VPN Proxy Master. Не рекомендовано!"
     },
     {
-      "id": 99,
+      "id": 100,
       "name": "<a href=\"https://www.cyberghostvpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">CyberGhost Free Trial</a>",
       "type": "Тріал",
       "traffic": "Тимчасово",
@@ -990,7 +1000,7 @@
       "description": "Велика мережа серверів. Платний VPN із пробним періодом."
     },
     {
-      "id": 100,
+      "id": 101,
       "name": "<a href=\"https://www.freelan.org/\" target=\"_blank\" rel=\"nofollow noopener\">FreeLAN</a>",
       "type": "VPN-клієнт",
       "traffic": "Безліміт",
@@ -1000,7 +1010,7 @@
       "description": "Безплатний open‑source VPN‑клієнт."
     },
     {
-      "id": 101,
+      "id": 102,
       "name": "<a href=\"https://www.infradead.org/openconnect/\" target=\"_blank\" rel=\"nofollow noopener\">OpenConnect</a>",
       "type": "VPN-клієнт",
       "traffic": "Безліміт",
@@ -1010,7 +1020,7 @@
       "description": "Безплатний open‑source VPN‑клієнт, сумісний із Cisco AnyConnect."
     },
   {
-    "id": 102,
+    "id": 103,
     "name": "<a href=\"https://belkavpn.com/\" target=\"_blank\" rel=\"nofollow noopener\">BelkaVPN</a>",
     "type": "VPN‑клієнт",
     "traffic": "Безліміт",
@@ -1020,7 +1030,7 @@
     "description": "Швидкий та простий VPN‑клієнт із безлімітним трафіком, стабільним з’єднанням та підтримкою приватного доступу до контенту. Орієнтований на легкість використання та базовий захист."
   },
   {
-    "id": 103,
+    "id": 104,
     "name": "<a href=\"https://play.google.com/store/apps/details?id=vpn.ukraine_tap2free\" target=\"_blank\" rel=\"nofollow noopener\">VPN Ukraine – Get Ukrainian IP</a>",
     "type": "VPN‑клієнт",
     "traffic": "Безліміт",
@@ -1030,7 +1040,7 @@
     "description": "VPN‑додаток для отримання української IP‑адреси. Простий інтерфейс, швидке підключення та безлімітний трафік. Підходить для доступу до українських сервісів і захисту Wi‑Fi."
   },
   {
-    "id": 104,
+    "id": 105,
     "name": "<a href=\"https://zenvpn.net/\" target=\"_blank\" rel=\"nofollow noopener\">zenVPN</a>",
     "type": "VPN‑клієнт",
     "traffic": "Обмеження",
